@@ -13,11 +13,11 @@ package gustavo;
     	      }
 
     	      public static int atacar(Random random) {
-    	          return random.nextInt(16) + 5; // Dano de 5 a 20
+    	          return random.nextInt(16) + 5; 
     	      }
 
     	      public static int receberDano(Random random) {
-    	          return random.nextInt(11) + 5; // Dano de 5 a 15
+    	          return random.nextInt(11) + 5; 
     	      }
 
     	      public static int curar(int vida) {
